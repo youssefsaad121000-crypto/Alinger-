@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "alignerfix",
+  "version": "1.0.0",
+  "name": "Aligner Fix",
+  "description": "Fixes Iris in-world text rendering.",
+  "authors": [
+    "youssef"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/alignerfix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "git.artdeell.AlignerFixClient"
+    ]
+  },
+  "mixins": [
+    "alignerfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
