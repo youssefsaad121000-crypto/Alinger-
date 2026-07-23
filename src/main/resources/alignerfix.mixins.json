@@ -2,7 +2,9 @@
   "required": true,
   "package": "git.artdeell.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": [],
+  "client": [
+    "TextRendererMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
